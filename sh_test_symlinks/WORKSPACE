@@ -1,0 +1,1 @@
+workspace(name = "sh_test_symlinks")
