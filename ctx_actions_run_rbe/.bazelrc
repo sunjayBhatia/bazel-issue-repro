@@ -1,0 +1,19 @@
+build:rbe-toolchain-msvc-cl --host_platform=@rbe_windows_msvc_cl//config:platform
+build:rbe-toolchain-msvc-cl --platforms=@rbe_windows_msvc_cl//config:platform
+build:rbe-toolchain-msvc-cl --crosstool_top=@rbe_windows_msvc_cl//cc:toolchain
+build:rbe-toolchain-msvc-cl --extra_toolchains=@rbe_windows_msvc_cl//config:cc-toolchain
+
+build:remote --remote_cache=grpcs://remotebuildexecution.googleapis.com
+build:remote --remote_executor=grpcs://remotebuildexecution.googleapis.com
+
+build:remote-windows --config=remote
+build:remote-windows --spawn_strategy=remote,local
+build:remote-windows --strategy=Javac=remote,local
+build:remote-windows --strategy=Closure=remote,local
+build:remote-windows --strategy=Genrule=remote,local
+build:remote-windows --remote_timeout=120
+build:remote-windows --auth_enabled=true
+build:remote-windows --remote_download_toplevel
+
+build:remote-msvc-cl --config=remote-windows
+build:remote-msvc-cl --config=rbe-toolchain-msvc-cl

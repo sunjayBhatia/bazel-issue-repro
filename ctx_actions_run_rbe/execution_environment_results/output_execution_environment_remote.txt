@@ -1,0 +1,65 @@
+C:\botcode\w 
+--- 
+ Volume in drive C has no label.
+ Volume Serial Number is D491-E48C
+
+ Directory of C:\botcode\w
+
+06/18/2020  05:50 PM    <DIR>          .
+06/18/2020  05:50 PM    <DIR>          ..
+06/18/2020  05:50 PM    <DIR>          bazel-out
+               0 File(s)              0 bytes
+               3 Dir(s)  176,131,788,800 bytes free
+--- 
+ Volume in drive C has no label.
+ Volume Serial Number is D491-E48C
+
+ Directory of C:\
+
+06/18/2020  05:50 PM    <DIR>          botcode
+06/16/2020  08:09 PM    <SYMLINKD>     c [C:\]
+05/07/2020  04:48 AM             5,510 License.txt
+06/16/2020  08:16 PM    <DIR>          Program Files
+06/16/2020  08:11 PM    <DIR>          Program Files (x86)
+06/16/2020  08:15 PM    <DIR>          tools
+05/07/2020  05:11 AM    <DIR>          Users
+06/16/2020  08:45 PM    <DIR>          Windows
+               1 File(s)          5,510 bytes
+               7 Dir(s)  21,299,871,744 bytes free
+--- 
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ContainerAdministrator\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=50938BD5CC59
+ComSpec=C:\Windows\system32\cmd.exe
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOST_CONTAINER_NAME=rbe-container-e8175e45-86f7-4117-9665-a66d98eb34f4
+LOCALAPPDATA=C:\Users\ContainerAdministrator\AppData\Local
+MSYS2_ARG_CONV_EXCL=*
+NUMBER_OF_PROCESSORS=2
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\tools\bazel;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.26.28801\bin\Hostx64\x64;C:\Program Files\CMake\bin;C:\tools\ninja;C:\Program Files\Python38;C:\Program Files\Python38\Scripts;C:\Program Files\7-Zip;C:\tools\msys64\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\ContainerAdministrator\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3f00
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+SOME_ENV_VAR=some_value
+SystemDrive=C:
+SystemRoot=C:\Windows
+TEMP=C:\Windows\Temp
+TMP=C:\Windows\Temp
+TMPDIR=C:\Windows\Temp
+USERDOMAIN=User Manager
+USERNAME=ContainerAdministrator
+USERPROFILE=C:\Users\ContainerAdministrator
+windir=C:\Windows
