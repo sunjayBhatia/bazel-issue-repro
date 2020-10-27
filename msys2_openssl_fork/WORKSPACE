@@ -1,0 +1,30 @@
+workspace(name = "msys2_openssl_fork")
+
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "bazel_toolchains",
+    sha256 = "4fb3ceea08101ec41208e3df9e56ec72b69f3d11c56629d6477c0ff88d711cf7",
+    strip_prefix = "bazel-toolchains-3.6.0",
+    # 2020-10-08
+    urls = ["https://github.com/bazelbuild/bazel-toolchains/releases/download/3.6.0/bazel-toolchains-3.6.0.tar.gz"],
+)
+
+http_archive(
+    name = "envoy_build_tools",
+    sha256 = "afd67e399fa27fb703fb74dc39ed1f121dfcebc1556bbd1053fa8f22d8b24230",
+    strip_prefix = "envoy-build-tools-b1a8b205f13ce52143bcb7283c6dd0a53bcd1c6c",
+    # 2020-10-16
+    urls = ["https://github.com/envoyproxy/envoy-build-tools/archive/b1a8b205f13ce52143bcb7283c6dd0a53bcd1c6c.tar.gz"],
+)
+
+http_archive(
+    name = "bazel_skylib",
+    sha256 = "e5d90f0ec952883d56747b7604e2a15ee36e288bb556c3d0ed33e818a4d971f2",
+    strip_prefix = "bazel-skylib-1.0.2",
+    urls = ["https://github.com/bazelbuild/bazel-skylib/archive/1.0.2.tar.gz"],
+)
+
+load("@envoy_build_tools//toolchains:rbe_toolchains_config.bzl", "rbe_toolchains_config")
+
+rbe_toolchains_config()

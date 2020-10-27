@@ -5,7 +5,7 @@ Copy a GCP credential file for a user with access to RBE into this directory
 Run:
 
 ```
-docker run --it -v <path to this directory>:C:/source gcr.io/envoy-ci/envoy-build-windows:f21773ab398a879f976936f72c78c9dd3718ca1e powershell.exe
+docker run -it --rm -v <path to this directory>:C:/source gcr.io/envoy-ci/envoy-build-windows:f21773ab398a879f976936f72c78c9dd3718ca1e powershell.exe
 ```
 
 ### Repro
